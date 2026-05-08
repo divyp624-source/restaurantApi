@@ -54,7 +54,7 @@ MIDDLEWARE = [
 
 ]
 
-ROOT_URLCONF = 'resturant-api-project.urls'
+ROOT_URLCONF = 'resturant_api_project.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'resturant-api-project.wsgi.application'
+WSGI_APPLICATION = 'resturant_api_project.wsgi.application'
 
 
 # Database
