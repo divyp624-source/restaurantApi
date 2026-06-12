@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-config
+  namespace: api-name
+data:
+  MYSQL_DATABASE: restaurantdb
+  MYSQL_USER: restaurantuser
